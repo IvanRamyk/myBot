@@ -23,7 +23,7 @@ def add_card_number(message):
             card = f.readline()
             cards[name[:-1]] = card;
         f.close()  # закрываем файл
-        cardBot.send_message(message.from_user.id, 'Привет, база данных карт была успешно создана')
+        cardBot.send_message(message.from_user.id, 'База данных карт была успешно загружена.')
 
 
 def delete_number(message):
